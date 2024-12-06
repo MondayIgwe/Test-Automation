@@ -19,38 +19,44 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>1.2.5</version>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-core</artifactId>
-            <version>1.2.5</version>
-        </dependency>
-        <!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
+<!--        <dependency>-->
+<!--            <groupId>info.cukes</groupId>-->
 <!--            <artifactId>cucumber-junit</artifactId>-->
-<!--            <version>${io.cucumber.version}</version>-->
+<!--            <version>1.2.5</version>-->
 <!--            <scope>test</scope>-->
 <!--        </dependency>-->
 <!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>cucumber-core</artifactId>-->
-<!--            <version>${io.cucumber.version}</version>-->
+<!--            <groupId>info.cukes</groupId>-->
+<!--            <artifactId>cucumber-java</artifactId>-->
+<!--            <version>1.2.5</version>-->
 <!--        </dependency>-->
 <!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>cucumber-java</artifactId>-->
-<!--            <version>${io.cucumber.version}</version>-->
+<!--            <groupId>info.cukes</groupId>-->
+<!--            <artifactId>cucumber-core</artifactId>-->
+<!--            <version>1.2.5</version>-->
 <!--        </dependency>-->
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${io.cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>${io.cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${io.cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.2</version>
+        </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -108,15 +114,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.2</version>
-                <configuration>
-                    <!--                    <test>runners.UITestRunnerTestNGTest</test>-->
-                    <systemPropertyVariables>
-                        <propertyName>chrome</propertyName>
-                    </systemPropertyVariables>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
             </plugin>
         </plugins>
     </build>

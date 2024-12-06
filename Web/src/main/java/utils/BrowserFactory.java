@@ -1,39 +1,42 @@
 package utils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ThreadGuard;
 
-public class BrowserDriver {
-    private static final ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();
+public class BrowserFactory {
+    private final ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();
 
-    public static WebDriver setDriver(String browserName) {
+    public BrowserFactory(String browserName, String applicationUrl) {
         switch (browserName) {
             case "chrome":
-                webDriver.set(new ChromeDriver());
+                WebDriverManager.chromedriver().setup();
+                webDriver.set(ThreadGuard.protect(new ChromeDriver()));
                 break;
             case "firefox":
-                webDriver.set(new FirefoxDriver());
+                webDriver.set(ThreadGuard.protect(new FirefoxDriver()));
                 break;
             case "safari":
-                webDriver.set(new SafariDriver());
+                webDriver.set(ThreadGuard.protect(new SafariDriver()));
                 break;
             default:
                 throw new IllegalArgumentException("Unsupported browser: " + browserName);
         }
+        getDriver().get(applicationUrl);
         getDriver().manage().window().maximize();
-        return getDriver();
     }
 
-    public static WebDriver getDriver() {
+    public WebDriver getDriver() {
         if (webDriver.get() == null) {
             throw new IllegalStateException("No WebDriver instance has been set");
         }
         return webDriver.get();
     }
 
-    public static void quitDriver() {
+    public void quitDriver() {
         if (getDriver() != null) {
             getDriver().close();
             getDriver().quit();

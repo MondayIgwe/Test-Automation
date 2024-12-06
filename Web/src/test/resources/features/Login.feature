@@ -1,5 +1,6 @@
-Feature: Test User login
+Feature: Check login Functionality
 
+  @smoke
   Scenario: Validate user can login
     Given a user with username john and password secret
     When the user logs in with username john and password secret
