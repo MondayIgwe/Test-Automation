@@ -11,6 +11,7 @@
     <modules>
         <module>API-MicroServices</module>
         <module>Database</module>
+        <module>Web</module>
     </modules>
 
     <properties>
@@ -34,11 +35,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>${io.cucumber.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.5.3</version>
         </dependency>
     </dependencies>
 
