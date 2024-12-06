@@ -1,0 +1,1 @@
+Intellij Ide,Java, Gherkin, Feature file, Selenium, Cucumber, Maven, Extent report, log4j

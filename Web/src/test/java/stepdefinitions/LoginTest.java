@@ -1,19 +1,22 @@
 package stepdefinitions;
+
 import io.cucumber.java.en.*;
 
 public class LoginTest {
-    @Given("a user with username john and password secret")
-    public void a_user_with_username_john_and_password_secret() {
-    }
-
-    @When("the user logs in with username john and password secret")
-    public void the_user_logs_in_with_username_john_and_password_secret() {
-
-    }
 
     @Then("the user should be successfully logged in")
-    public void the_user_should_be_successfully_logged_in() {
-
+    public void theUserShouldBeSuccessfullyLoggedIn() {
     }
 
+    @Given("user enter username {string} and password {string}")
+    public void userEnterUsernameAndPassword(String arg0, String arg1) {
+    }
+
+    @When("the user logs in")
+    public void theUserLogsIn() {
+    }
+
+    @Then("the user should not be able to log in")
+    public void theUserShouldNotBeAbleToLogIn() {
+    }
 }
