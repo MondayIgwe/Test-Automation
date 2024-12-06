@@ -1,5 +1,4 @@
 package runners;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -8,5 +7,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features",
         glue = {"src/test/java/stepdefinitions", "src/test/java/hooks/Hook"},
         plugin = {"pretty", "html:target/cucumber-reports", "json:target/cucumber.json"})
-public class TestRunnerJunit {
+public class RunnerJunitTest {
 }
