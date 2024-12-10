@@ -1,0 +1,3 @@
+Pre-requisite dependencies
+----------------------------------------------------------------
+Java 9+, TestNg, Maven, Rest-Assured API, Java JDK
