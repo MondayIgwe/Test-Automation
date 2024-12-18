@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <test verbose="2" parallel="methods"
+          name="Smoke" thread-count="">
+        <classes>
+            <class name="testSuite.EbayHomeSanityTest">
+                <methods>
+                    <include name="verifyEbayHomeSanity"/>
+                    <include name="verifySearchSuggestions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regression" parallel="tests">
+        <classes>
+            <class name="testSuite.EbayHomeSanityTest">
+                <methods>
+                    <include name="verifyEbayHomeSanity"/>
+                    <include name="verifySearchSuggestions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Sanity" parallel="classes">
+        <classes>
+            <class name="testSuite.EbayHomeSanityTest">
+                <methods>
+                    <include name="verifyEbayHomeSanity"/>
+                    <include name="verifySearchSuggestions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
