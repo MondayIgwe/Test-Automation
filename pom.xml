@@ -13,6 +13,9 @@
         <module>Database</module>
         <module>Web</module>
         <module>Mobile</module>
+        <module>TestNg-Project</module>
+        <module>DeskTop</module>
+        <module>Junit-Project</module>
     </modules>
 
     <properties>

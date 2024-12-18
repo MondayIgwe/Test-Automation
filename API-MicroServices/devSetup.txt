@@ -1,3 +1,8 @@
 Pre-requisite dependencies
 ----------------------------------------------------------------
 Java 9+, TestNg, Maven, Rest-Assured API, Java JDK
+
+-----------------
+Local Server Pre-requisite
+. Install Node JS
+.

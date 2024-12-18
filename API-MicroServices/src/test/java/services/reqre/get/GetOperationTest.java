@@ -4,7 +4,6 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-import io.restassured.http.Headers;
 import org.apache.http.HttpStatus;
 import io.restassured.response.Response;
 
@@ -12,15 +11,12 @@ import static org.testng.Assert.*;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import static utils.Commons.*;
-
 import com.github.javafaker.Faker;
-
 import java.util.HashMap;
 import java.util.Map;
 
-public class UsersTest {
+public class GetOperationTest {
 
     Faker faker = new Faker();
 
@@ -35,9 +31,7 @@ public class UsersTest {
         basePath = "Users?page=2";
         String[] params = new String[]{"Eve"};
         when().get().then().extract().response().then().body("data.first_name", hasItems(params));
-
     }
-
 
     @Test
     public void getUsers() {
@@ -46,6 +40,7 @@ public class UsersTest {
         // Information for server processing
         Map<String, String> headers = new HashMap<>();
         headers.put("Content-Type", "application/json");
+        headers.put("accept", "application/json");
 
         Response response = given().headers(headers).when().get().then().extract().response();
 
