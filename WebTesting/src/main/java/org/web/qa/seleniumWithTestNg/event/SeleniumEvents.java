@@ -23,7 +23,7 @@ public class SeleniumEvents {
         }
     }
 
-    Actions performActions() {
+    private Actions performActions() {
         return new Actions(driver);
     }
     public WebElement findAllByText(By by, String eleText) throws NoSuchElementException {
