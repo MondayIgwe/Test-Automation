@@ -1,6 +1,7 @@
 package org.web.qa.test.seleniumTestNg.base;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -19,17 +20,26 @@ public abstract class DriverFactory {
 
     @BeforeTest
     public static void getDriver() throws FileNotFoundException {
-        getProperty(CONFIG_FILEPATH);
-
-        if (BROWSER_NAME.equalsIgnoreCase(Browsers.CHROME.name())) {
-            webDriver.set(new ChromeDriver());
-        } else if (BROWSER_NAME.equalsIgnoreCase(Browsers.SAFARI.name())) {
-            webDriver.set(new SafariDriver());
-        } else if (BROWSER_NAME.equalsIgnoreCase(Browsers.EDGE.name())) {
-            webDriver.set(new EdgeDriver());
-        } else {
-            throw new IllegalArgumentException("Invalid browser type");
+        try {
+            getProperty(CONFIG_FILEPATH);
+        } catch (FileNotFoundException e) {
+            throw new FileNotFoundException("File not found");
         }
+
+        try {
+            if (BROWSER_NAME.equalsIgnoreCase(Browsers.CHROME.name())) {
+                webDriver.set(new ChromeDriver());
+            } else if (BROWSER_NAME.equalsIgnoreCase(Browsers.SAFARI.name())) {
+                webDriver.set(new SafariDriver());
+            } else if (BROWSER_NAME.equalsIgnoreCase(Browsers.EDGE.name())) {
+                webDriver.set(new EdgeDriver());
+            } else {
+                throw new IllegalArgumentException("Invalid browser type");
+            }
+        } catch (WebDriverException e) {
+            e.getMessage();
+        }
+
         webDriver.get().get(URL);
         webDriver.get().manage().window().maximize();
     }

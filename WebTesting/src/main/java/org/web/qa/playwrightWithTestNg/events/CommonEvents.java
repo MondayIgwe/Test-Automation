@@ -1,4 +1,4 @@
-package org.web.qa.playwrightWithTestNg.Events;
+package org.web.qa.playwrightWithTestNg.events;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
