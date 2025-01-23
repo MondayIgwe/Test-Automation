@@ -1,7 +1,7 @@
 package org.web.qa.playwrightWithTestNg.page;
 
 import com.microsoft.playwright.Page;
-import org.web.qa.playwrightWithTestNg.Events.CommonEvents;
+import org.web.qa.playwrightWithTestNg.events.CommonEvents;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
