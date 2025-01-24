@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add web setup" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature001" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MondayIgwe&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MondayIgwe/Test-Automation.git&quot;,
+    &quot;accountId&quot;: &quot;7ce768f8-dbb7-4f38-9cf2-383b917ae625&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;MondayIgwe&quot;,
+    &quot;repository&quot;: &quot;Test-Automation&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0-sources.jar!/org/openqa/selenium/WebElement.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2s1BI9iYlJlwocl1wsGIGUaZSIc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.ApiTesting [clean].executor": "Run",
+    "Maven.ApiTesting [install].executor": "Run",
+    "Maven.ApiTesting [test].executor": "Run",
+    "Maven.Test-Automation [clean].executor": "Run",
+    "Maven.Test-Automation [install].executor": "Run",
+    "Maven.WebTesting [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml.executor": "Run",
+    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml.executor": "Debug",
+    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml.executor": "Run",
+    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml.executor": "Run",
+    "TestNG.Runner (1).executor": "Run",
+    "TestNG.Runner.executor": "Run",
+    "TestNG.RunnerWithTestNg.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/groov/IdeaProjects/Test-Automation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\WebTesting\src\test\resources\features\seleniumFeature" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\main\java\org\api\qa" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\features" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\testNgRunner" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\testNgRunner" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\features\reqres" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.api.qa.test.runner" />
+      <recent name="org.web.qa.playwrightWithTestNg.page.Events" />
+      <recent name="org.web.qa.seleniumWithTestNg.page" />
+      <recent name="org.web.qa.test.seleniumTestNg.stepDefinitions" />
+      <recent name="org.web.qa.test.playwrightTestNg.Events" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml">
+    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTesting" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ApiTesting/src/test/resources/testNgRunner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTesting" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ApiTesting/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test-Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNgRunner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test-Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.api.qa.test.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.api.qa.test.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.api.qa.test.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Runner (1)" />
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="" />
+      <created>1737613120419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737613120419</updated>
+    </task>
+    <task id="LOCAL-00001" summary="QA-001 : feat - add api setup">
+      <option name="closed" value="true" />
+      <created>1737620100856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620100856</updated>
+    </task>
+    <task id="LOCAL-00002" summary="QA-002 : feat - add web setup">
+      <option name="closed" value="true" />
+      <created>1737632782819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737632782819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="QA-002 : feat - add web setup">
+      <option name="closed" value="true" />
+      <created>1737663370291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737663370293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QA-001 : feat - add api setup" />
+    <MESSAGE value="QA-002 : feat - add web setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : feat - add web setup" />
+  </component>
+</project>

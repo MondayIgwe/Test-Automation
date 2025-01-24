@@ -1,0 +1,3 @@
+org\api\qa\test\stepDefinitions\GetUserStep.class
+org\api\qa\test\runner\Runner.class
+org\api\qa\test\hook\Hook.class
