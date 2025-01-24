@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add web setup" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add web setup">
+      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/annotations/CustomAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,33 +67,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.ApiTesting [clean].executor": "Run",
-    "Maven.ApiTesting [install].executor": "Run",
-    "Maven.ApiTesting [test].executor": "Run",
-    "Maven.Test-Automation [clean].executor": "Run",
-    "Maven.Test-Automation [install].executor": "Run",
-    "Maven.WebTesting [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml.executor": "Run",
-    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml.executor": "Debug",
-    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml.executor": "Run",
-    "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml.executor": "Run",
-    "TestNG.Runner (1).executor": "Run",
-    "TestNG.Runner.executor": "Run",
-    "TestNG.RunnerWithTestNg.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/groov/IdeaProjects/Test-Automation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test-Automation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test-Automation [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WebTesting [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Runner (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RunnerWithTestNg.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/groov/IdeaProjects/Test-Automation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\WebTesting\src\test\resources\features\seleniumFeature" />
@@ -172,10 +177,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml" />
         <item itemvalue="TestNG.Runner (1)" />
         <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml" />
         <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml" />
         <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
@@ -216,9 +221,33 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature001" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QA-001 : feat - add api setup" />
     <MESSAGE value="QA-002 : feat - add web setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : feat - add web setup" />
+    <MESSAGE value="QA-002 : refactor - add cosmetic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : refactor - add cosmetic changes" />
   </component>
 </project>

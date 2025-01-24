@@ -6,12 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="WebTesting" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ApiTesting" target="21" />
-      <module name="Test-Automation" target="1.5" />
-      <module name="WebTesting" target="14" />
-    </bytecodeTargetLevel>
   </component>
 </project>

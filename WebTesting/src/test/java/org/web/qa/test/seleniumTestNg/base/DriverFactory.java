@@ -3,16 +3,16 @@ package org.web.qa.test.seleniumTestNg.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 import org.web.qa.utils.Browsers;
 import org.web.qa.utils.OS;
+import org.web.qa.utils.annotations.CustomAnnotations;
 
 import java.io.FileNotFoundException;
 
 import static org.web.qa.utils.CommonUtils.CONFIG_FILEPATH;
 import static org.web.qa.utils.ReadProperty.*;
 
+@CustomAnnotations(description = "Get WebDriver instance to be consumed by other objects", time = 1)
 public abstract class DriverFactory {
 
     ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();
