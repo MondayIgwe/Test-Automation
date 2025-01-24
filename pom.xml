@@ -12,6 +12,7 @@
     <modules>
         <module>WebTesting</module>
         <module>ApiTesting</module>
+        <module>MobileTesting</module>
     </modules>
 
     <properties>

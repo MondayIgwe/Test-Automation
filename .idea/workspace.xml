@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add web setup">
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/annotations/CustomAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add cosmetic changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737663370293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="QA-002 : feat - add cosmetic changes">
+      <option name="closed" value="true" />
+      <created>1737747436735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747436735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +251,7 @@
     <MESSAGE value="QA-001 : feat - add api setup" />
     <MESSAGE value="QA-002 : feat - add web setup" />
     <MESSAGE value="QA-002 : refactor - add cosmetic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : refactor - add cosmetic changes" />
+    <MESSAGE value="QA-002 : feat - add cosmetic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : feat - add cosmetic changes" />
   </component>
 </project>
