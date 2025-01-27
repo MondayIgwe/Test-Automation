@@ -14,6 +14,7 @@
         <module>ApiTesting</module>
         <module>MobileTesting</module>
         <module>DatabaseTesting</module>
+        <module>Utilities</module>
     </modules>
 
     <properties>

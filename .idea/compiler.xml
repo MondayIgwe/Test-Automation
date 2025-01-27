@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DatabaseTesting" />
+        <module name="Utilities" />
         <module name="WebTesting" />
         <module name="MobileTesting" />
         <module name="ApiTesting" />

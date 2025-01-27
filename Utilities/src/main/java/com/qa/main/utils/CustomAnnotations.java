@@ -1,4 +1,4 @@
-package org.web.qa.utils.annotations;
+package com.qa.main.utils;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

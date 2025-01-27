@@ -1,4 +1,4 @@
-package org.web.qa.utils;
+package com.qa.main.utils;
 
 public enum Browsers {
     CHROME("chrome"), CHROMIUM("chromium"), FIREFOX("mozilla"),

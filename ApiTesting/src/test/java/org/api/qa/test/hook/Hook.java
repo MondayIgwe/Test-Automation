@@ -7,6 +7,7 @@ import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 
+import static com.qa.main.utils.Utility.timeOut;
 import static org.api.qa.helpers.IPayloads.Payloads.setPayload;
 
 public class Hook {
@@ -37,7 +38,7 @@ public class Hook {
 
     @BeforeStep
     public void beforeStep() {
-        System.out.println("Run Before each step in cucumber scenario step");
+        System.out.println("Run Before each step in cucumber scenario step" + timeOut);
     }
 
     public static APIResponse getApiResponse() {
