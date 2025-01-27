@@ -8,7 +8,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 
 import static com.qa.main.utils.Utility.timeOut;
-import static org.api.qa.helpers.IPayloads.Payloads.setPayload;
+import static com.qa.main.utils.Utility.GO_REST_API_BASE_URI;
+import static com.qa.main.payload.IPayloads.Payloads.setPayload;
 
 public class Hook {
     private static Playwright playwright;
@@ -22,8 +23,7 @@ public class Hook {
         APIRequest apiRequest = playwright.request();
 
         APIRequest.NewContextOptions context = new APIRequest.NewContextOptions();
-        String BASE_URL = "https://gorest.co.in/public/v2/";
-        context.setBaseURL(BASE_URL);
+        context.setBaseURL(GO_REST_API_BASE_URI);
         context.ignoreHTTPSErrors = true;
         context.setExtraHTTPHeaders(setPayload());
 

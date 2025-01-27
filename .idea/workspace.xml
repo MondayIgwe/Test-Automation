@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-002 : feat - add database project structure">
-      <change afterPath="$PROJECT_DIR$/Utilities/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-003 : feat - abstract project structure to use Utilities module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTesting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiTesting/src/test/java/org/api/qa/test/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTesting/src/test/java/org/api/qa/test/hook/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/OS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/ReadProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/playwrightTestNg/base/PlayWrightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/playwrightTestNg/base/PlayWrightFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737747915119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="QA-003 : feat - abstract project structure to use Utilities module">
+      <option name="closed" value="true" />
+      <created>1737966637352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737966637352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +282,7 @@
     <MESSAGE value="QA-002 : feat - add cosmetic changes" />
     <MESSAGE value="QA-002 : feat - add mobile project structure" />
     <MESSAGE value="QA-002 : feat - add database project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-002 : feat - add database project structure" />
+    <MESSAGE value="QA-003 : feat - abstract project structure to use Utilities module" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-003 : feat - abstract project structure to use Utilities module" />
   </component>
 </project>
