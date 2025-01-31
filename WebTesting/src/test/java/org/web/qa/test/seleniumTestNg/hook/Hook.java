@@ -10,8 +10,14 @@ public class Hook extends DriverFactory {
 
     @Before
     public void setUp() throws FileNotFoundException {
-        getDriver();
-        System.out.println("Before hook");
+        Thread thread = new Thread(() -> {
+            try {
+                super.getDriver();
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+            System.out.println("Before hook");
+        }, "Hook");
     }
 
     @After
