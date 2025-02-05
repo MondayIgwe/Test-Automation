@@ -9,8 +9,11 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
 import static com.qa.main.utils.Utility.setChromeOptions;
+
 import java.io.FileNotFoundException;
+
 import static com.qa.main.utils.CommonUtils.CONFIG_FILEPATH;
 import static com.qa.main.utils.ReadProperty.*;
 import static com.qa.main.utils.OS.*;
@@ -38,54 +41,55 @@ public abstract class DriverFactory {
                 }
                 default -> throw new IllegalArgumentException("Invalid OS type");
             }
-        } catch (SessionNotCreatedException | InsecureCertificateException sessionIdException) {
-            throw new WebDriverException("Session ID is invalid. WebDriver not instantiated.");
-        } finally {
 
-        }
 
-        switch (WINDOWS) {
-            case WINDOWS -> {
-                getProperty(CONFIG_FILEPATH);
-                switch (Browsers.EDGE) {
-                    case EDGE -> {
-                        webDriver.set(new EdgeDriver());
-                        webDriver.get().get(URL);
-                        webDriver.get().manage().window().maximize();
+            switch (WINDOWS) {
+                case WINDOWS -> {
+                    getProperty(CONFIG_FILEPATH);
+                    switch (Browsers.EDGE) {
+                        case EDGE -> {
+                            webDriver.set(new EdgeDriver());
+                            webDriver.get().get(URL);
+                            webDriver.get().manage().window().maximize();
+                        }
                     }
                 }
+                default -> throw new IllegalArgumentException("Invalid OS type");
             }
-            default -> throw new IllegalArgumentException("Invalid OS type");
-        }
         /*
             Comment out the code below to run the test on different machines
         */
-        switch (MAC) {
-            case MAC -> {
-                getProperty(CONFIG_FILEPATH);
-                switch (Browsers.SAFARI) {
-                    case SAFARI -> {
-                        webDriver.set(new SafariDriver());
-                        webDriver.get().get(URL);
-                        webDriver.get().manage().window().maximize();
+            switch (MAC) {
+                case MAC -> {
+                    getProperty(CONFIG_FILEPATH);
+                    switch (Browsers.SAFARI) {
+                        case SAFARI -> {
+                            webDriver.set(new SafariDriver());
+                            webDriver.get().get(URL);
+                            webDriver.get().manage().window().maximize();
+                        }
                     }
                 }
+                default -> throw new IllegalArgumentException("Invalid OS type");
             }
-            default -> throw new IllegalArgumentException("Invalid OS type");
-        }
 
-        switch (LINUX) {
-            case LINUX -> {
-                getProperty(CONFIG_FILEPATH);
-                switch (Browsers.CHROME) {
-                    case CHROME -> {
-                        webDriver.set(new ChromeDriver());
-                        webDriver.get().get(URL);
-                        webDriver.get().manage().window().maximize();
+            switch (LINUX) {
+                case LINUX -> {
+                    getProperty(CONFIG_FILEPATH);
+                    switch (Browsers.CHROME) {
+                        case CHROME -> {
+                            webDriver.set(new ChromeDriver());
+                            webDriver.get().get(URL);
+                            webDriver.get().manage().window().maximize();
+                        }
                     }
                 }
+                default -> throw new IllegalArgumentException("Invalid OS type");
             }
-            default -> throw new IllegalArgumentException("Invalid OS type");
+        } catch (SessionNotCreatedException | InsecureCertificateException sessionIdException) {
+            System.out.println("Session ID is invalid. WebDriver not instantiated." + sessionIdException.getMessage());
+        } finally {
+
         }
     }
 

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-003 : feat - assign thread to perform task on webdriver instance">
-      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/helper/Helper.java" afterDir="false" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - add exceptions">
+      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/SessionNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/hook/Hook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738336078761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="QA-004 : feat - add exceptions">
+      <option name="closed" value="true" />
+      <created>1738765749620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738765749620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,14 +327,15 @@
     <MESSAGE value="QA-003 : feat - abstract project structure to use Utilities module" />
     <MESSAGE value="QA-003 : feat - cosmetic changes" />
     <MESSAGE value="QA-003 : feat - assign thread to perform task on webdriver instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-003 : feat - assign thread to perform task on webdriver instance" />
+    <MESSAGE value="QA-004 : feat - add exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : feat - add exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>141</line>
+          <line>143</line>
           <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="waitForElement">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -338,7 +344,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>38</line>
+          <line>40</line>
           <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="performActions">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -347,7 +353,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>42</line>
+          <line>44</line>
           <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="performAlert">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -356,7 +362,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>196</line>
+          <line>198</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
