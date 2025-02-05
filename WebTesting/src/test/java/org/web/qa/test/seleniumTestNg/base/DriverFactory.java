@@ -1,12 +1,15 @@
 package org.web.qa.test.seleniumTestNg.base;
 
 import com.qa.main.utils.Browsers;
+import com.qa.main.utils.CustomAnnotations;
+import org.openqa.selenium.InsecureCertificateException;
+import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import com.qa.main.utils.CustomAnnotations;
+import static com.qa.main.utils.Utility.setChromeOptions;
 import java.io.FileNotFoundException;
 import static com.qa.main.utils.CommonUtils.CONFIG_FILEPATH;
 import static com.qa.main.utils.ReadProperty.*;
@@ -18,21 +21,27 @@ public abstract class DriverFactory {
     ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();
 
     public synchronized void getDriver() throws FileNotFoundException {
+        try {
         /*
             Executed test on different browsers
          */
-        switch (WINDOWS) {
-            case WINDOWS -> {
-                getProperty(CONFIG_FILEPATH);
-                switch (Browsers.CHROME) {
-                    case CHROME -> {
-                        webDriver.set(new ChromeDriver());
-                        webDriver.get().get(URL);
-                        webDriver.get().manage().window().maximize();
+            switch (WINDOWS) {
+                case WINDOWS -> {
+                    getProperty(CONFIG_FILEPATH);
+                    switch (Browsers.CHROME) {
+                        case CHROME -> {
+                            webDriver.set(new ChromeDriver(setChromeOptions()));
+                            webDriver.get().get(URL);
+                            webDriver.get().manage().window().maximize();
+                        }
                     }
                 }
+                default -> throw new IllegalArgumentException("Invalid OS type");
             }
-            default -> throw new IllegalArgumentException("Invalid OS type");
+        } catch (SessionNotCreatedException | InsecureCertificateException sessionIdException) {
+            throw new WebDriverException("Session ID is invalid. WebDriver not instantiated.");
+        } finally {
+
         }
 
         switch (WINDOWS) {
