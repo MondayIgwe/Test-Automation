@@ -7,7 +7,7 @@ public class Utility {
     public final static String GO_REST_API_BASE_URI = "https://gorest.co.in/public/v2/";
 
     static {
-        timeOut = 10000; // 10 seconds
+        timeOut = 50000; // 50 seconds
     }
 
     public static ChromeOptions setChromeOptions() {
