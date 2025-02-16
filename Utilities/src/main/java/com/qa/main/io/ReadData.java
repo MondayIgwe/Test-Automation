@@ -63,10 +63,6 @@ public class ReadData {
                             System.out.println("Value: " + rowValue);
                             break;
                         case "name":
-                            System.out.println("Column Name: " + stringCellValue);
-                            rowValue = sheet.getRow(i + 1).getCell(j).getStringCellValue();
-                            System.out.println("Row Value: " + rowValue);
-                            break;
                         case "age":
                             System.out.println("Column Name: " + stringCellValue);
                             rowValue = sheet.getRow(i + 1).getCell(j).getStringCellValue();
