@@ -27,6 +27,7 @@ public class SeleniumEvents {
     }
 
     // Find Elements
+
     public WebElement findOne(By by) throws NoSuchElementException {
         try {
             return driver.findElement(by);
@@ -145,6 +146,18 @@ public class SeleniumEvents {
         try {
             WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofSeconds(1)); // 100 milliseconds
             return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+        } catch (TimeoutException timeoutException) {
+            throw new TimeoutException("WaitForElement");
+        }
+    }
+
+    public int waitForElement(By by, int n) {
+        try {
+            WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofSeconds(1)); // 100 milliseconds
+            if (n == 1) return n;
+            else {
+                return n * waitForElement(by, n - 1);
+            }
         } catch (TimeoutException timeoutException) {
             throw new TimeoutException("WaitForElement");
         }

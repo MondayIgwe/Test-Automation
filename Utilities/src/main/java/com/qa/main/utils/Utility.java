@@ -15,4 +15,5 @@ public class Utility {
         chromeOptions.setAcceptInsecureCerts(true);
         return chromeOptions;
     }
+
 }

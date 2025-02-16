@@ -1,0 +1,17 @@
+1️⃣ @BeforeSuite - Runs once before all tests in the suite.
+2️⃣ @BeforeTest - Runs before any test method inside the <test> tag in testng.xml.
+3️⃣ @BeforeClass - Runs once before any method in the test class.
+4️⃣ @BeforeMethod - Runs before each @Test method.
+5️⃣ @Test - The actual test execution.
+6️⃣ @AfterMethod - Runs after each @Test method.
+7️⃣ @AfterClass - Runs once after all test methods in the class.
+8️⃣ @AfterTest - Runs after all test methods in the <test> tag in testng.xml.
+9️⃣ @AfterSuite - Runs once after all tests in the suite.
+
+📌 Key Takeaways:
+
+✅ @BeforeSuite & @AfterSuite are executed once per suite.
+✅ @BeforeMethod & @AfterMethod are executed before and after each test case.
+✅ @BeforeClass & @AfterClass are executed once per test class.
+
+Understanding this flow ensures better test setup and teardown strategies, leading to more reliable and maintainable test automation!

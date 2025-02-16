@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 
 public class Hook extends DriverFactory {
 
-    @Before
+    @Before(value = "@smoke", order = 1000)
     public void setUp() throws FileNotFoundException {
         super.getDriver();
     }

@@ -3,6 +3,7 @@ package com.qa.main.utils;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public abstract class CommonUtils {
     public final static String CONFIG_FILEPATH = "src/test/resources/properties/config.properties";
@@ -12,7 +13,7 @@ public abstract class CommonUtils {
 
     public static void sleep(int seconds) {
         try {
-            Thread.sleep(seconds * 1000L);
+            TimeUnit.SECONDS.sleep(seconds * 1000L);
         } catch (InterruptedException e) {
             e.getStackTrace();
         }
