@@ -25,6 +25,7 @@ public abstract class DriverFactory {
 
     ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();
 
+
     public synchronized void getDriver() throws FileNotFoundException {
         try {
         /*

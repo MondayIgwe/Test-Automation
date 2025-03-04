@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : refactor - project">
-      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/io/ReadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/io/ReadInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Url.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - add excel reader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileTesting/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileTesting/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/helper/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/src/main/java/com/qa/main/utils/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/hook/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738858822235</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="QA-004 : feat - add excel reader">
+      <option name="closed" value="true" />
+      <created>1739731504509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739731504509</updated>
+    </task>
+    <task id="LOCAL-00015" summary="QA-004 : feat - add excel reader">
+      <option name="closed" value="true" />
+      <created>1739731533598</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739731533598</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +376,8 @@
     <MESSAGE value="QA-004 : feat - add exceptions" />
     <MESSAGE value="QA-004 : refactor - build file" />
     <MESSAGE value="QA-004 : refactor - project" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : refactor - project" />
+    <MESSAGE value="QA-004 : feat - add excel reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : feat - add excel reader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
