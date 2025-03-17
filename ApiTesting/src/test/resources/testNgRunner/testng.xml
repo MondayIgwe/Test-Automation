@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting">
+        <classes>
+            <class name="org.api.qa.tests.api.GoRest">
+                <methods>
+                    <include name="getUsersApiTest"/>
+                </methods>
+            </class>
+            <class name="org.api.qa.tests.api.PetStore">
+                <methods>
+                    <include name="getSwaggerJsonTest"/>
+                    <include name="getUserApiTest"/>
+                    <include name="postPetTest"/>
+                    <include name="putPetTest"/>
+                    <include name="deletePetTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
