@@ -8,14 +8,10 @@ import org.openqa.selenium.remote.ScreenshotException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static com.qa.main.utils.CommonUtils.TIMEOUT;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.time.Duration;
-
 import static java.lang.Integer.parseInt;
 
 public class SeleniumEvents {
@@ -38,6 +34,7 @@ public class SeleniumEvents {
             return driver.findElement(by);
         }
     }
+
     public List<WebElement> findAll(By by) throws NoSuchElementException {
         try {
             return driver.findElements(by);
@@ -233,7 +230,7 @@ public class SeleniumEvents {
 
     public void implicitWait() {
         try {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
         } catch (InvalidArgumentException e) {
             throw new InvalidArgumentException("Invalid time duration");
         }

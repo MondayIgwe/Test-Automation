@@ -45,7 +45,6 @@ public class LoginStep extends BaseStep {
     @When("user select data from web table")
     public void userSelectDataFromWebTable(DataTable dataTable) {
         Assert.assertNotNull(loginPage);
-        loginPage.selectDateFromWebTable();
         try {
             if (!dataTable.isEmpty()) {
                 DataTable rows = dataTable.rows(1);

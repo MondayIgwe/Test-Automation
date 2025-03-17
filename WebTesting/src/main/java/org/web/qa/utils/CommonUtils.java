@@ -1,4 +1,4 @@
-package com.qa.main.utils;
+package org.web.qa.utils;
 
 
 import java.util.Arrays;

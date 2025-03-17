@@ -1,4 +1,4 @@
-package com.qa.main.utils;
+package org.web.qa.utils;
 
 public enum Url {
     PRACTICE_SOFTWARE_TESTING("https://practicesoftwaretesting.com/"),

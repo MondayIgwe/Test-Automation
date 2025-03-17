@@ -1,4 +1,4 @@
-package com.qa.main.io;
+package org.web.qa.io;
 
 import java.io.*;
 import java.util.Objects;

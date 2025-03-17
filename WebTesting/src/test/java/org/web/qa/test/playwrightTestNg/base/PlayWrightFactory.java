@@ -9,12 +9,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import com.qa.main.utils.Browsers;
-import static com.qa.main.utils.ReadProperty.QA;
-import static com.qa.main.utils.ReadProperty.getProperty;
 import java.io.FileNotFoundException;
 import java.util.regex.Pattern;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+import static org.web.qa.utils.ReadProperty.QA;
+import static org.web.qa.utils.ReadProperty.getProperty;
 
 public abstract class PlayWrightFactory {
 

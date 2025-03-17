@@ -2,16 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DatabaseTesting" />
-        <module name="Utilities" />
+        <module name="JavaTutorial" />
         <module name="WebTesting" />
-        <module name="MobileTesting" />
         <module name="ApiTesting" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DatabaseTesting" target="1.8" />
+      <module name="MobileTesting" target="1.8" />
+      <module name="Utilities" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
