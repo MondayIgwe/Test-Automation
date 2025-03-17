@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+<!--        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>-->
+<!--        <listener class-name="org.example.listeners.CustomListeners"/>-->
+    </listeners>
+    <groups>
+        <define name="sanityBuild">
+            <include name="windows.*"/>
+            <include name="ios.*"/>
+        </define>
+        <run>
+            <include name="sanityBuild"/>
+        </run>
+    </groups>
+    <parameter name="sleepTime" value="300"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://testng.org/#_reportng_a_reporting_tool"/>
+    <test verbose="2" preserve-order="true" name="Class Test" enabled="true">
+        <groups>
+            <define name="dailyBuild">
+                <include name="sanity"/>
+            </define>
+            <define name="weeklyBuild">
+                <include name="regression"/>
+            </define>
+            <define name="monthlyBuild">
+                <include name="regression"/>
+            </define>
+            <run>
+                <include name="all"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.runner.Runner"/>
+            <class name="org.example.testNgConcept.ConceptOne">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="makeTest"/>
+                </methods>
+            </class>
+            <class name="org.example.testNgConcept.ConceptTwo">
+                <methods>
+                    <include name="testOne"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
