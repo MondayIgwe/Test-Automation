@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - add excel reader">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature001" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MondayIgwe&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MondayIgwe/Test-Automation.git&quot;,
+    &quot;accountId&quot;: &quot;7ce768f8-dbb7-4f38-9cf2-383b917ae625&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;MondayIgwe&quot;,
+    &quot;repository&quot;: &quot;Test-Automation&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1-sources.jar!/io/cucumber/java/Before.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-testng/7.20.1/cucumber-testng-7.20.1-sources.jar!/io/cucumber/testng/AbstractTestNGCucumberTests.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0-sources.jar!/org/openqa/selenium/Alert.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0-sources.jar!/org/openqa/selenium/JavascriptExecutor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0-sources.jar!/org/openqa/selenium/WebElement.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriverService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2s1BI9iYlJlwocl1wsGIGUaZSIc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ApiTesting [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test-Automation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test-Automation [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test-Automation [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WebTesting [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Runner (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RunnerWithTestNg.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/groov/IdeaProjects/Test-Automation/Utilities/src/main/java/com/qa/main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\Utilities\src\main\java\com\qa\main" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\WebTesting\src\test\resources\features\seleniumFeature" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\main\java\org\api\qa" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\Utilities\src\main\java\com\qa\main" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\testNgRunner" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\testNgRunner" />
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.main.payload" />
+      <recent name="org.api.qa.test.runner" />
+      <recent name="org.web.qa.playwrightWithTestNg.page.Events" />
+      <recent name="org.web.qa.seleniumWithTestNg.page" />
+      <recent name="org.web.qa.test.seleniumTestNg.stepDefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RunnerWithTestNg">
+    <configuration name="C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.api.qa.test.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.api.qa.test.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.api.qa.test.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.web.qa.test.playwrightTestNg.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.web.qa.test.playwrightTestNg.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.playwrightTestNg.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerWithTestNg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.web.qa.test.seleniumTestNg.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.web.qa.test.seleniumTestNg.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.seleniumTestNg.runner.RunnerWithTestNg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RunnerWithTestNg" />
+        <item itemvalue="TestNG.Runner" />
+        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
+        <item itemvalue="TestNG.C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" />
+        <item itemvalue="TestNG.Runner (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="" />
+      <created>1737613120419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737613120419</updated>
+    </task>
+    <task id="LOCAL-00001" summary="QA-001 : feat - add api setup">
+      <option name="closed" value="true" />
+      <created>1737620100856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620100856</updated>
+    </task>
+    <task id="LOCAL-00002" summary="QA-002 : feat - add web setup">
+      <option name="closed" value="true" />
+      <created>1737632782819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737632782819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="QA-002 : feat - add web setup">
+      <option name="closed" value="true" />
+      <created>1737663370291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737663370293</updated>
+    </task>
+    <task id="LOCAL-00004" summary="QA-002 : feat - add cosmetic changes">
+      <option name="closed" value="true" />
+      <created>1737747436735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747436735</updated>
+    </task>
+    <task id="LOCAL-00005" summary="QA-002 : feat - add mobile project structure">
+      <option name="closed" value="true" />
+      <created>1737747744952</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747744952</updated>
+    </task>
+    <task id="LOCAL-00006" summary="QA-002 : feat - add database project structure">
+      <option name="closed" value="true" />
+      <created>1737747915119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747915119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="QA-003 : feat - abstract project structure to use Utilities module">
+      <option name="closed" value="true" />
+      <created>1737966637352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737966637352</updated>
+    </task>
+    <task id="LOCAL-00008" summary="QA-003 : feat - cosmetic changes">
+      <option name="closed" value="true" />
+      <created>1737968408011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737968408011</updated>
+    </task>
+    <task id="LOCAL-00009" summary="QA-003 : feat - assign thread to perform task on webdriver instance">
+      <option name="closed" value="true" />
+      <created>1738336078761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738336078761</updated>
+    </task>
+    <task id="LOCAL-00010" summary="QA-004 : feat - add exceptions">
+      <option name="closed" value="true" />
+      <created>1738765749620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738765749620</updated>
+    </task>
+    <task id="LOCAL-00011" summary="QA-004 : feat - add exceptions">
+      <option name="closed" value="true" />
+      <created>1738766732255</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738766732255</updated>
+    </task>
+    <task id="LOCAL-00012" summary="QA-004 : refactor - build file">
+      <option name="closed" value="true" />
+      <created>1738766897259</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738766897259</updated>
+    </task>
+    <task id="LOCAL-00013" summary="QA-004 : refactor - project">
+      <option name="closed" value="true" />
+      <created>1738858822235</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858822235</updated>
+    </task>
+    <task id="LOCAL-00014" summary="QA-004 : feat - add excel reader">
+      <option name="closed" value="true" />
+      <created>1739731504509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739731504509</updated>
+    </task>
+    <task id="LOCAL-00015" summary="QA-004 : feat - add excel reader">
+      <option name="closed" value="true" />
+      <created>1739731533598</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739731533598</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature001" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QA-001 : feat - add api setup" />
+    <MESSAGE value="QA-002 : feat - add web setup" />
+    <MESSAGE value="QA-002 : refactor - add cosmetic changes" />
+    <MESSAGE value="QA-002 : feat - add cosmetic changes" />
+    <MESSAGE value="QA-002 : feat - add mobile project structure" />
+    <MESSAGE value="QA-002 : feat - add database project structure" />
+    <MESSAGE value="QA-003 : feat - abstract project structure to use Utilities module" />
+    <MESSAGE value="QA-003 : feat - cosmetic changes" />
+    <MESSAGE value="QA-003 : feat - assign thread to perform task on webdriver instance" />
+    <MESSAGE value="QA-004 : feat - add exceptions" />
+    <MESSAGE value="QA-004 : refactor - build file" />
+    <MESSAGE value="QA-004 : refactor - project" />
+    <MESSAGE value="QA-004 : feat - add excel reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : feat - add excel reader" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
+          <line>144</line>
+          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="waitForElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
+          <line>41</line>
+          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="performActions">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
+          <line>45</line>
+          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="performAlert">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

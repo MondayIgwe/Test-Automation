@@ -1,4 +1,4 @@
-package org.web.qa.utils;
+package com.qa.main.utils;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
