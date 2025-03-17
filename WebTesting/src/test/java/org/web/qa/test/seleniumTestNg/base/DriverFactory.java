@@ -2,15 +2,12 @@ package org.web.qa.test.seleniumTestNg.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.web.qa.utils.Browsers;
 import org.web.qa.utils.OS;
-
 import java.io.FileNotFoundException;
 
 import static org.web.qa.utils.CommonUtils.CONFIG_FILEPATH;
-import static org.web.qa.utils.ReadProperty.getProperty;
-import static org.web.qa.utils.ReadProperty.URL;
+import static org.web.qa.utils.ReadProperty.*;
 
 public abstract class DriverFactory {
     private static final ThreadLocal<WebDriver> webDriver = new ThreadLocal<>();

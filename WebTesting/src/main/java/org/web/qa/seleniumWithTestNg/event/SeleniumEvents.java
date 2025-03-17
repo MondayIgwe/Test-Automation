@@ -8,10 +8,12 @@ import org.openqa.selenium.remote.ScreenshotException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.time.Duration;
+
 import static java.lang.Integer.parseInt;
 
 public class SeleniumEvents {
@@ -77,19 +79,25 @@ public class SeleniumEvents {
         }
     }
 
+    public void sendKeyz(WebElement element, String text) throws IllegalArgumentException {
+        try {
+            element.sendKeys(text, Keys.TAB);
+        } catch (InvalidElementStateException invalidElementStateException) {
+            throw new InvalidElementStateException(invalidElementStateException.getMessage());
+        }
+    }
+
     public void clickElement(By by) {
         try {
-            driver.findElement(by).click();
+            findOne(by).click();
         } catch (ElementClickInterceptedException clickInterceptedException) {
             System.out.println("Element not clickable " + clickInterceptedException.getMessage());
         }
     }
 
-    public void clickElement(WebElement element, String locator) {
+    public void clickElement(WebElement element) {
         try {
-            By eleId = By.id(locator);
-            WebElement ele = waitForElement(eleId);
-            ele.click();
+            element.click();
         } catch (ElementClickInterceptedException clickInterceptedException) {
             System.out.println("Element not clickable " + clickInterceptedException.getMessage());
         }

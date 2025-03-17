@@ -10,7 +10,7 @@ import org.web.qa.seleniumWithTestNg.event.SeleniumEvents;
 import java.util.List;
 
 public class LoginPage extends PageFactory {
-    private SeleniumEvents seleniumEvents;
+    private final SeleniumEvents seleniumEvents;
 
     public LoginPage(WebDriver driver) {
         System.out.println(driver);
@@ -19,7 +19,18 @@ public class LoginPage extends PageFactory {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(id = "login")
-    private WebElement login;
+    @FindBy(xpath = "input[name='username']")
+    private WebElement username;
 
+    @FindBy(xpath = "input[name='password']")
+    private WebElement password;
+
+    @FindBy(xpath = "button[type='submit']")
+    private WebElement submitButton;
+
+    public void login(String usernameTxt, String passwordTxt) {
+        seleniumEvents.sendKeyz(username, usernameTxt);
+        seleniumEvents.sendKeyz(password, passwordTxt);
+        seleniumEvents.clickElement(submitButton);
+    }
 }

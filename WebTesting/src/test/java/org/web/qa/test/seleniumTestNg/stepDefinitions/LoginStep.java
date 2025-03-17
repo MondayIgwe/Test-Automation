@@ -5,26 +5,21 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 import org.web.qa.test.seleniumTestNg.base.BaseStep;
+
 import java.util.List;
 
 public class LoginStep extends BaseStep {
 
     @When("User enters username {string} and password {string}")
-    public void userEntersUsernameAndPassword(String arg0, String arg1) {
-        System.out.println(arg1 + arg0);
+    public void userEntersUsernameAndPassword(String username, String password) {
+      //  loginPage.login(username, password);
+        getScenarioContext().setContext("user", username);
+        getScenarioContext().setContext("pass", password);
     }
 
     @Then("User should be able to login successfully")
     public void userShouldBeAbleToLoginSuccessfully() {
         System.out.println("test passed");
-    }
-
-    @Given("User is on page")
-    public void userIsOnPage() {
-    }
-
-    @Given("the user is on the login page")
-    public void theUserIsOnTheLoginPage() {
     }
 
     @Then("validate data from web table")

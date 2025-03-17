@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - refactor framework">
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/CustomAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/SessionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/Url.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - framework maintenance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/stepDefinitions/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/stepDefinitions/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/resources/features/seleniumFeature/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/resources/features/seleniumFeature/LoginTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/resources/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +102,7 @@
     "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testNgRunner/testng.xml.executor": "Run",
     "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/testng.xml.executor": "Run",
     "TestNG.Runner (1).executor": "Run",
+    "TestNG.Runner (2).executor": "Run",
     "TestNG.Runner.executor": "Run",
     "TestNG.RunnerWithTestNg.executor": "Run",
     "git-widget-placeholder": "feature001",
@@ -138,16 +137,7 @@
       <recent name="org.web.qa.test.seleniumTestNg.stepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Runner (1)">
-    <configuration name="C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Runner (2)">
     <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebTesting" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
@@ -168,6 +158,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.api.qa.test.runner" />
       <option name="MAIN_CLASS_NAME" value="org.api.qa.test.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.web.qa.test.seleniumTestNg.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.web.qa.test.seleniumTestNg.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.seleniumTestNg.runner.Runner" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -210,19 +217,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" />
       <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
+      <item itemvalue="TestNG.Runner (2)" />
       <item itemvalue="TestNG.RunnerWithTestNg" />
       <item itemvalue="TestNG.Runner (1)" />
       <item itemvalue="TestNG.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Runner (2)" />
         <item itemvalue="TestNG.Runner (1)" />
         <item itemvalue="TestNG.RunnerWithTestNg" />
         <item itemvalue="TestNG.Runner" />
         <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
-        <item itemvalue="TestNG.C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739731533598</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="QA-004 : feat - framework maintenance">
+      <option name="closed" value="true" />
+      <created>1742226900082</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742226900082</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,41 +411,24 @@
     <MESSAGE value="QA-004 : refactor - project" />
     <MESSAGE value="QA-004 : feat - add excel reader" />
     <MESSAGE value="QA-004 : feat - refactor framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : feat - refactor framework" />
+    <MESSAGE value="QA-004 : feat - framework maintenance" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-004 : feat - framework maintenance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>141</line>
-          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents">
+          <line>81</line>
+          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents" method="sendKeyz">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>38</line>
-          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>42</line>
-          <properties class="org.web.qa.seleniumWithTestNg.event.SeleniumEvents">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
-          <line>208</line>
+          <line>216</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

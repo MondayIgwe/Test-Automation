@@ -2,21 +2,21 @@ Feature: Login to HRM Application
   As a user
   I want to login to HRM Application
   So that I can access the application
-  Background:
-    Given the user is on the login page
 
-  @smoke
+  @fun
   Scenario: Login with valid credentials
-    Given User is on page
+    Given User enters username "<username>" and password "<password>"
     Then  validate data from web table
-
+  Example:
+  | username | password  |
+  | Admin    | admin123 |
   @functional
   Scenario: To test valid login details
     Given the user """ home page"""
     And verify that is able to log in
-      |username|password|
-      |sam     | xdd    |
-      |sam     | xdd    |
+      | username | password |
+      | sam      | xdd      |
+      | sam      | xdd      |
     When user select data from web table
       | name  | value | status |
       | john  | 1000  | paid   |

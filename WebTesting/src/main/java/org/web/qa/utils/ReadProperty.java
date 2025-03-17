@@ -9,6 +9,7 @@ public class ReadProperty {
     static FileReader fileReader;
     static Properties properties;
     public static String URL;
+    public static String ETE;
     public static String QA;
     public static String BROWSER_NAME;
 
@@ -18,6 +19,7 @@ public class ReadProperty {
         try {
             properties.load(fileReader);
             URL = properties.getProperty("url");
+            ETE = properties.getProperty("ete");
             BROWSER_NAME = properties.getProperty("browser");
         } catch (IOException e) {
             throw new RuntimeException(e);
