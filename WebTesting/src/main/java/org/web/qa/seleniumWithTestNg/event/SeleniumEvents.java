@@ -38,6 +38,13 @@ public class SeleniumEvents {
             return driver.findElement(by);
         }
     }
+    public List<WebElement> findAll(By by) throws NoSuchElementException {
+        try {
+            return driver.findElements(by);
+        } catch (NoSuchElementException e) {
+            throw new NoSuchElementException("Elements not found");
+        }
+    }
 
     private Actions performActions() {
         return new Actions(driver);

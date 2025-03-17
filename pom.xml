@@ -12,9 +12,7 @@
     <modules>
         <module>WebTesting</module>
         <module>ApiTesting</module>
-        <module>MobileTesting</module>
-        <module>DatabaseTesting</module>
-        <module>Utilities</module>
+        <module>JavaTutorial</module>
     </modules>
 
     <properties>

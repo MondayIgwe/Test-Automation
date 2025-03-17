@@ -1,7 +1,6 @@
-package org.api.qa.test.stepDefinitions;
+package org.api.qa.tests.stepDefinitions;
 
 import com.microsoft.playwright.APIResponse;
-import org.api.qa.test.hook.Hook;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.JsonNode;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.Given;
@@ -18,7 +17,7 @@ public class GetUserStep {
 
     @Given("I set the base url {string}")
     public void i_set_the_base_url(String string) {
-        apiResponse = Hook.getApiResponse();
+
     }
 
     @Given("I send a GET request to {string}")
