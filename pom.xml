@@ -12,7 +12,6 @@
     <modules>
         <module>WebTesting</module>
         <module>ApiTesting</module>
-        <module>JavaTutorial</module>
     </modules>
 
     <properties>

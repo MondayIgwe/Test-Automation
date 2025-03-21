@@ -8,9 +8,6 @@ import org.openqa.selenium.remote.ScreenshotException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static com.qa.main.utils.CommonUtils.TIMEOUT;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -107,7 +104,8 @@ public class SeleniumEvents {
         try {
             switch (text) {
                 case "index":
-                    dropdown.selectByIndex(parseInt(text));
+                    int txt = parseInt(text);
+                    dropdown.selectByIndex(txt);
                     break;
                 case "text":
                     dropdown.selectByVisibleText(text);
@@ -233,7 +231,7 @@ public class SeleniumEvents {
 
     public void implicitWait() {
         try {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
         } catch (InvalidArgumentException e) {
             throw new InvalidArgumentException("Invalid time duration");
         }
