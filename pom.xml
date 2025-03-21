@@ -13,6 +13,7 @@
         <module>WebTesting</module>
         <module>ApiTesting</module>
         <module>JavaTutorial</module>
+        <module>DesktopTesting</module>
     </modules>
 
     <properties>

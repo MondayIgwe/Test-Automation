@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - framework maintenance">
+      <change afterPath="$PROJECT_DIR$/DesktopTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesktopTesting/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesktopTesting/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/aggregation/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/aggregation/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/aggregation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/association/Association.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/association/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/association/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/inheritance/Rand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/inheritance/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/inheritance/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/inheritance/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/utils/ReadProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/base/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/stepDefinitions/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/java/org/web/qa/test/seleniumTestNg/stepDefinitions/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/resources/features/seleniumFeature/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/resources/features/seleniumFeature/LoginTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTesting/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebTesting/src/test/resources/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +51,22 @@
     &quot;assignee&quot;: &quot;MondayIgwe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MondayIgwe/Test-Automation.git&quot;,
-    &quot;accountId&quot;: &quot;7ce768f8-dbb7-4f38-9cf2-383b917ae625&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MondayIgwe/Test-Automation.git",
+    "accountId": "d4a9bb69-08f3-4996-8d6f-737770296071"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;MondayIgwe&quot;,
-    &quot;repository&quot;: &quot;Test-Automation&quot;
+    "owner": "MondayIgwe",
+    "repository": "Test-Automation"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
@@ -85,6 +92,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LagosState.executor": "Run",
+    "Application.State.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.ApiTesting [clean].executor": "Run",
     "Maven.ApiTesting [install].executor": "Run",
@@ -95,6 +104,7 @@
     "Maven.WebTesting [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Association.testAssociation.executor": "Run",
     "TestNG.C:/Users/groov/AppData/Local/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml.executor": "Debug",
     "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testNgRunner/testng.xml.executor": "Run",
     "TestNG.C:/Users/groov/IdeaProjects/Test-Automation/ApiTesting/src/test/resources/testng.xml.executor": "Debug",
@@ -105,6 +115,8 @@
     "TestNG.Runner (2).executor": "Run",
     "TestNG.Runner.executor": "Run",
     "TestNG.RunnerWithTestNg.executor": "Run",
+    "TestNG.TestDemo.test.executor": "Run",
+    "TestNG.TestDemo.testAppOne.executor": "Run",
     "git-widget-placeholder": "feature001",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -137,79 +149,81 @@
       <recent name="org.web.qa.test.seleniumTestNg.stepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Runner (2)">
-    <configuration name="C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+  <component name="RunManager" selected="TestNG.Association.testAssociation">
+    <configuration name="LagosState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.demo.association.LagosState" />
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.demo.association.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="State" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.demo.association.State" />
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.demo.association.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Association.testAssociation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.demo.association.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.demo.association" />
+      <option name="MAIN_CLASS_NAME" value="org.example.demo.association.Association" />
+      <option name="METHOD_NAME" value="testAssociation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTesting" />
+    <configuration name="TestDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.api.qa.test.runner.*" />
+          <option name="PATTERN" value="org.example.exe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.api.qa.test.runner" />
-      <option name="MAIN_CLASS_NAME" value="org.api.qa.test.runner.Runner" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.example.exe" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exe.TestDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
+    <configuration name="TestDemo.testAppOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.web.qa.test.seleniumTestNg.runner.*" />
+          <option name="PATTERN" value="org.example.exe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.web.qa.test.seleniumTestNg.runner" />
-      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.seleniumTestNg.runner.Runner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.web.qa.test.playwrightTestNg.runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.web.qa.test.playwrightTestNg.runner" />
-      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.playwrightTestNg.runner.Runner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerWithTestNg" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.web.qa.test.seleniumTestNg.runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.web.qa.test.seleniumTestNg.runner" />
-      <option name="MAIN_CLASS_NAME" value="org.web.qa.test.seleniumTestNg.runner.RunnerWithTestNg" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.example.exe" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exe.TestDemo" />
+      <option name="METHOD_NAME" value="testAppOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -217,19 +231,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
-      <item itemvalue="TestNG.Runner (2)" />
-      <item itemvalue="TestNG.RunnerWithTestNg" />
-      <item itemvalue="TestNG.Runner (1)" />
-      <item itemvalue="TestNG.Runner" />
+      <item itemvalue="Application.LagosState" />
+      <item itemvalue="Application.State" />
+      <item itemvalue="TestNG.Association.testAssociation" />
+      <item itemvalue="TestNG.TestDemo.test" />
+      <item itemvalue="TestNG.TestDemo.testAppOne" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Runner (2)" />
-        <item itemvalue="TestNG.Runner (1)" />
-        <item itemvalue="TestNG.RunnerWithTestNg" />
-        <item itemvalue="TestNG.Runner" />
-        <item itemvalue="TestNG.C:/Users/groov/IdeaProjects/Test-Automation/WebTesting/src/test/resources/testNgRunner/seleniumWebTestng.xml" />
+        <item itemvalue="TestNG.Association.testAssociation" />
+        <item itemvalue="Application.LagosState" />
+        <item itemvalue="Application.State" />
+        <item itemvalue="TestNG.TestDemo.testAppOne" />
+        <item itemvalue="TestNG.TestDemo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742226900082</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="QA-004 : feat - framework maintenance">
+      <option name="closed" value="true" />
+      <created>1742229420257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742229420257</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,6 +452,16 @@
           <url>file://$PROJECT_DIR$/WebTesting/src/main/java/org/web/qa/seleniumWithTestNg/event/SeleniumEvents.java</url>
           <line>216</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/association/State.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaTutorial/src/main/java/org/example/demo/association/Association.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

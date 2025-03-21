@@ -7,13 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaTutorial" />
+        <module name="DesktopTesting" />
         <module name="WebTesting" />
         <module name="ApiTesting" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DatabaseTesting" target="1.8" />
+      <module name="JavaTutorial" target="1.8" />
       <module name="MobileTesting" target="1.8" />
       <module name="Utilities" target="14" />
     </bytecodeTargetLevel>
