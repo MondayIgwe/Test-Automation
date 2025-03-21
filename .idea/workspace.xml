@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - framework maintenance">
-      <change afterPath="$PROJECT_DIR$/JavaChecks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaChecks/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaChecks/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="a5428d23-3e90-41fe-9208-0a8653349444" name="Changes" comment="QA-004 : feat - java checks">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +113,11 @@
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\groov\IdeaProjects\Test-Automation\JavaChecks\src\main\java\org\example" />
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\Utilities\src\main\java\com\qa\main" />
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources" />
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\ApiTesting\src\test\resources\testNgRunner" />
       <recent name="C:\Users\groov\IdeaProjects\Test-Automation\testNgRunner" />
-      <recent name="C:\Users\groov\IdeaProjects\Test-Automation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qa.main.payload" />
